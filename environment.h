@@ -84,6 +84,12 @@ extern const char * const local_repo_env[];
 
 struct strvec;
 
+/* Config values parsed by git_default_config() */
+struct repo_config_values {
+	/* core config values */
+	char *attributes_file_path;
+};
+
 /*
  * Wrapper of getenv() that returns a strdup value. This value is kept
  * in argv to be freed later.
@@ -152,7 +158,6 @@ extern int assume_unchanged;
 extern int warn_on_object_refname_ambiguity;
 extern char *apply_default_whitespace;
 extern char *apply_default_ignorewhitespace;
-extern char *git_attributes_file;
 extern int zlib_compression_level;
 extern int pack_compression_level;
 extern unsigned long pack_size_limit_cfg;

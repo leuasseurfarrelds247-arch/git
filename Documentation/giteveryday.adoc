@@ -446,7 +446,7 @@ refs/tags/v[0-9]*	david
 <2> and make the shared repository writable by the group.
 <3> use update-hook example by Carl from Documentation/howto/
 for branch policy control.
-<4> alice and cindy can push into master, only bob can push into doc-update.
+<4> alice and cindy can push into master, only bob can push into doc-update.app/src/ui/check-runs/ci-check-run-rerun-dialog.tsx
 david is the release manager and is the only person who can
 create and push version tags.
 

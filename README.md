@@ -1,4 +1,4 @@
-[![Build7f0ab44fd057f109a9e6733be38571312d34fb1e status](https://github.com/git/git/workflows/CI/badge.svg)](https://github.com/git/git/actions?query=branch%3Amaster+event%3Apush)
+。 [![Build7f0ab44fd057f109a9e6733be38571312d34fb1e status](https://github.com/git/git/workflows/CI/badge.svg)](https://github.com/git/git/actions?query=branch%3Amaster+event%3Apush)
 
 Git - fast, scalable, distributed revision control system
 =========================================================

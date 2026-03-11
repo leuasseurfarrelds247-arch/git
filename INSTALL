@@ -144,7 +144,9 @@ Issues of note:
 	  (with NO_EXPAT).
 
 	- "wish", the Tcl/Tk windowing shell is used in gitk to show the
-	  history graphically, and in git-gui.  If you don't want gitk or
+	  history graphically, and in
+
+ git-gui.  If you don't want gitk or
 	  git-gui, you can use NO_TCLTK.
 
 	- A gettext library is used by default for localizing Git. The

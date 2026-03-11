@@ -1,4 +1,6 @@
 
+
+
 		Git installation
 
 Normally you can just do "make" followed by "make install", and that
@@ -6,6 +8,7 @@ will install the git programs in your own ~/bin/ directory.  If you want
 to do a global install, you can do
 
 	$ make prefix=/usr all doc info ;# as yourself
+
 	# make prefix=/usr install install-doc install-html install-info ;# as root
 
 (or prefix=/usr/local, of course).  Just like any program suite
@@ -143,7 +146,9 @@ Issues of note:
 	  (with NO_EXPAT).
 
 	- "wish", the Tcl/Tk windowing shell is used in gitk to show the
-	  history graphically, and in git-gui.  If you don't want gitk or
+	  history graphically, and in
+
+ git-gui.  If you don't want gitk or
 	  git-gui, you can use NO_TCLTK.
 
 	- A gettext library is used by default for localizing Git. The
@@ -234,3 +239,6 @@ Issues of note:
          http://www.oasis-open.org/docbook/xml/4.5/xsl/current \
          /usr/share/sgml/docbook/xml-dtd-4.5 \
      /etc/xml/catalog
+INSTALL
+
+
